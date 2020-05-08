@@ -11,3 +11,14 @@
    
 #####投屏工具  
 [scrcpy](https://github.com/Genymobile/scrcpy)
+
+
+#####gradle爱忘的配置  
+```
+   // 仅支持 中文
+        resConfigs "zh"
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters "armeabi"
+        }
+```
