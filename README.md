@@ -15,10 +15,10 @@
 
 #####gradle爱忘的配置  
 ```
-   // 仅支持 中文
-        resConfigs "zh"
-        ndk {
-            // 设置支持的SO库架构
-            abiFilters "armeabi"
-        }
+// 仅支持 中文
+resConfigs "zh"
+ndk {
+     // 设置支持的SO库架构
+    abiFilters "armeabi"
+    }
 ```
